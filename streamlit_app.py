@@ -6,7 +6,7 @@ import streamlit as st
 import pycountry
 
 # --------- CONFIG ----------
-DATA_PATH = Path("data/Yakubu Analysis Updated.xlsx")
+DATA_PATH = Path("Yakubu Analysis Updated.xlsx")
 
 # Hard-coded IPC 3+ (0–1) by ISO-3
 IPC3_BY_ISO3 = {
