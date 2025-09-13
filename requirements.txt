@@ -1,6 +1,7 @@
-streamlit==1.36.0
-pandas
-numpy
-pycountry
-openpyxl
-requests
+voila==0.5.*
+ipywidgets==8.1.*
+pandas==2.2.*
+numpy==1.26.*
+requests>=2.31
+openpyxl>=3.1
+pycountry>=22.3.5
