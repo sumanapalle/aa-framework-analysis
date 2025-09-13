@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+
+# Enable widgets for classic + server
+jupyter nbextension enable --py widgetsnbextension --sys-prefix || true
+jupyter server extension enable voila --sys-prefix || \
+jupyter serverextension enable voila --sys-prefix || true
